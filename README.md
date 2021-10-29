@@ -219,7 +219,7 @@ Recommended for production
 ### Run the locally compiled version
 
 ```bash
-docker run -d timothyjmiller/cloudflare_ddns:latest
+docker run -d mendhak/cloudflare-ddns:latest
 ```
 
 ## License
