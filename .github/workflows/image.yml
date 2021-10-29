@@ -1,11 +1,6 @@
 name: Build cloudflare-ddns Docker image (multi-arch)
 
-on:
-  push:
-    branches: master
-    tags:
-      - '*'
-  pull_request:
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
@@ -42,6 +37,8 @@ jobs:
             type=raw,enable=${{ steps.extract_branch.outputs.branch == 'master' }},value=latest
             type=schedule
             type=ref,event=pr
+            type=ref,event=tag
+            type=ref,event=branch
             
       - name: Build and publish
         uses: docker/build-push-action@v2
