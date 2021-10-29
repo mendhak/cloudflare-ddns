@@ -140,13 +140,12 @@ def updateIPs(ips):
 
 if __name__ == '__main__':
     PATH = os.getcwd() + "/"
-    version = float(str(sys.version_info[0]) + "." + str(sys.version_info[1]))
     shown_ipv4_warning = False
     shown_ipv6_warning = False
     ipv4_enabled = True
     ipv6_enabled = True
 
-    if(version < 3.5):
+    if sys.version_info < (3, 5):
         raise Exception("🐍 This script requires Python 3.5+")
 
     config = None
