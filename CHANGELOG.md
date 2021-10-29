@@ -4,3 +4,4 @@
 * Use Github Actions to build and deploy [timothymiller/cloudflare-ddns#59](https://github.com/timothymiller/cloudflare-ddns/pull/59)  
 * Do not wait before updating IPs for the first time [timothymiller/cloudflare-ddns#53](https://github.com/timothymiller/cloudflare-ddns/pull/53)  
 * Fixed a bug where the script didn't work in Python 3.10 and above. 
+* Added a [Changelog](https://github.com/mendhak/cloudflare-ddns/blob/master/CHANGELOG.md)  
