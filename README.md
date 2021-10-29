@@ -1,6 +1,4 @@
 
-_Forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pull requests merged._
-
 <p align="center"><a href="https://timknowsbest.com/free-dynamic-dns" target="_blank" rel="noopener noreferrer"><img width="1024" src="feature-graphic.jpg" alt="Cloudflare DDNS"/></a></p>
 
 # 🚀 Cloudflare DDNS
@@ -11,7 +9,8 @@ A small, 🕵️ privacy centric, and ⚡ lightning fast multi-architecture Dock
 
 ## 🇺🇸 Origin
 
-This script was written for the Raspberry Pi platform to enable low cost self hosting to promote a more decentralized internet.
+This script was written for the Raspberry Pi platform to enable low cost self hosting to promote a more decentralized internet.  
+This repo was forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pending pull requests have been merged.  For details see the [changelog](CHANGELOG.md).  
 
 ## 🧹 More than just DDNS
 
