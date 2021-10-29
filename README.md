@@ -18,7 +18,7 @@ This script was written for the Raspberry Pi platform to enable low cost self ho
 
 | Size  | Downloads | Discord |
 | ------------- | ------------- | ------------- |
-| [![cloudflare-ddns docker image size](https://img.shields.io/docker/image-size/timothyjmiller/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/timothyjmiller/cloudflare-ddns "cloudflare-ddns docker image size")  | [![Total DockerHub pulls](https://img.shields.io/docker/pulls/timothyjmiller/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/timothyjmiller/cloudflare-ddns "Total DockerHub pulls")  | [![Official Discord Server](https://img.shields.io/discord/785778163887112192?style=flat-square)](https://discord.gg/UgGmwMvNxm "Official Discord Server")
+| [![cloudflare-ddns docker image size](https://img.shields.io/docker/image-size/mendhak/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/mendhak/cloudflare-ddns "cloudflare-ddns docker image size")  | [![Total DockerHub pulls](https://img.shields.io/docker/pulls/mendhak/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/mendhak/cloudflare-ddns "Total DockerHub pulls")  | [![Official Discord Server](https://img.shields.io/discord/785778163887112192?style=flat-square)](https://discord.gg/UgGmwMvNxm "Official Discord Server")
 
 ## ⁉️ How Private & Secure?
 
@@ -123,7 +123,7 @@ You can handle ddns for multiple domains (cloudflare zones) using the same docke
 
 ## 🐳 Deploy with Docker Compose
 
-Pre-compiled images are available via [the official docker container on DockerHub](https://hub.docker.com/r/timothyjmiller/cloudflare-ddns).
+Pre-compiled images are available via [the official docker container on DockerHub](https://hub.docker.com/r/mendhak/cloudflare-ddns).
 
 Modify the host file path of config.json inside the volumes section of docker-compose.yml.
 
@@ -131,7 +131,7 @@ Modify the host file path of config.json inside the volumes section of docker-co
 version: "3.7"
 services:
   cloudflare-ddns:
-    image: timothyjmiller/cloudflare-ddns:latest
+    image: mendhak/cloudflare-ddns:latest
     container_name: cloudflare-ddns
     security_opt:
       - no-new-privileges:true
@@ -219,7 +219,7 @@ Recommended for production
 ### Run the locally compiled version
 
 ```bash
-docker run -d timothyjmiller/cloudflare_ddns:latest
+docker run -d mendhak/cloudflare-ddns:latest
 ```
 
 ## License
