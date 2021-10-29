@@ -1,7 +1,6 @@
 
 _Forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pull requests merged. For details see the [changelog](CHANGELOG.md)_
 
-<p align="center"><a href="https://timknowsbest.com/free-dynamic-dns" target="_blank" rel="noopener noreferrer"><img width="1024" src="feature-graphic.jpg" alt="Cloudflare DDNS"/></a></p>
 
 # 🚀 Cloudflare DDNS
 
@@ -20,8 +19,8 @@ This repo was forked from [timothymiller/cloudflare-ddns](https://github.com/tim
 
 ## 📊 Stats
 
-| Size  | Downloads | Discord |
-| ------------- | ------------- | ------------- |
+| Size  | Downloads | 
+| ------------- | ------------- | 
 | [![cloudflare-ddns docker image size](https://img.shields.io/docker/image-size/mendhak/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/mendhak/cloudflare-ddns "cloudflare-ddns docker image size")  | [![Total DockerHub pulls](https://img.shields.io/docker/pulls/mendhak/cloudflare-ddns?style=flat-square)](https://hub.docker.com/r/mendhak/cloudflare-ddns "Total DockerHub pulls")  
 
 ## ⁉️ How Private & Secure?
