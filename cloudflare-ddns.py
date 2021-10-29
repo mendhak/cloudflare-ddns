@@ -164,7 +164,7 @@ if __name__ == '__main__':
         except:
             ipv4_enabled = True
             ipv6_enabled = True
-            print("⚙️ Individually disable IPv4 or IPv6 with new config.json options. Read more about it here: https://github.com/timothymiller/cloudflare-ddns/blob/master/README.md")
+            print("⚙️ Individually disable IPv4 or IPv6 with new config.json options. Read more about it here: https://github.com/mendhak/cloudflare-ddns/blob/master/README.md")
         if(len(sys.argv) > 1):
             if(sys.argv[1] == "--repeat"):
                 delay = 5*60

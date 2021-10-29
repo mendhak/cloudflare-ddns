@@ -226,10 +226,4 @@ docker run -d mendhak/cloudflare-ddns:latest
 
 This Template is licensed under the GNU General Public License, version 3 (GPLv3).
 
-## Author
-
-Timothy Miller
-
-[View my GitHub profile 💡](https://github.com/timothymiller)
-
-[View my personal website 💻](https://timknowsbest.com)
+Forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pull requests merged. 
