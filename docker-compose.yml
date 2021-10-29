@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   cloudflare-ddns:
-    image: timothyjmiller/cloudflare-ddns:latest
+    image: mendhak/cloudflare-ddns:latest
     container_name: cloudflare-ddns
     security_opt:
       - no-new-privileges:true
