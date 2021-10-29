@@ -1,4 +1,6 @@
 
+_Forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pull requests merged. For details see the [changelog](CHANGELOG.md)_
+
 <p align="center"><a href="https://timknowsbest.com/free-dynamic-dns" target="_blank" rel="noopener noreferrer"><img width="1024" src="feature-graphic.jpg" alt="Cloudflare DDNS"/></a></p>
 
 # 🚀 Cloudflare DDNS
