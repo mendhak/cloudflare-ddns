@@ -1,3 +1,7 @@
+I've switched to https://github.com/favonia/cloudflare-ddns/ which is much simpler and doesn't delete records. 
+
+
+---
 
 _Forked from [timothymiller/cloudflare-ddns](https://github.com/timothymiller/cloudflare-ddns) and some pull requests merged. For details see the [changelog](CHANGELOG.md)_
 
